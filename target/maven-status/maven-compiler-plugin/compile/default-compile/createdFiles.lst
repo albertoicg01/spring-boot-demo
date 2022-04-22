@@ -1,0 +1,5 @@
+com\at\internship\rest\hello\controller\HelloController.class
+com\at\internship\rest\hello\service\IPoliteSalutation.class
+com\at\internship\rest\hello\dto\HelloDto.class
+com\at\internship\rest\hello\service\impl\PoliteSalutationImpl.class
+com\at\internship\rest\hello\Main.class
