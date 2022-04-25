@@ -20,4 +20,20 @@ public class Contact {
     private String emailAddress;
     private String phoneNumber;
     private LocalDate birthDay;
+    //We implement the constructor here
+    public Contact(
+            Integer id
+            , String firstName
+            , String lastName
+            , String emailAddress
+            , String phoneNumber
+            , LocalDate birthDay
+    ) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.emailAddress = emailAddress;
+        this.phoneNumber = phoneNumber;
+        this.birthDay = birthDay;
+    }
 }
